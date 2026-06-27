@@ -1,6 +1,6 @@
 <div align="center">
 
-# To-Do List — Dashboard de Productivité Excel
+# To-Do List - Dashboard de productivité Excel
 
 ![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 
@@ -34,7 +34,7 @@ Tableau de suivi de tâches hebdomadaire avec KPIs automatisés, barres de progr
 |---------|---------|
 | `N°` | Identifiant séquentiel de la tâche |
 | `Tâche` | Intitulé de l'action à réaliser |
-| `Catégorie` | Domaine d'activité — gestion de projet, finance, marketing, technique... |
+| `Catégorie` | Domaine d'activité - gestion de projet, finance, marketing, technique... |
 | `Priorité` | Haute · Moyenne · Basse |
 | `%` | Pourcentage d'avancement, de 0 à 100 |
 | `Progression` | Barre de progression colorée selon l'avancement |
