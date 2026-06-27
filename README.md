@@ -4,7 +4,7 @@
 
 ![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 
-Tableau de suivi de tâches hebdomadaire avec KPIs automatisés et barres de progression dynamiques.
+Tableau de suivi de tâches hebdomadaire avec KPIs automatisés, barres de progression dynamiques et mise en forme conditionnelle.
 
 </div>
 
@@ -12,11 +12,17 @@ Tableau de suivi de tâches hebdomadaire avec KPIs automatisés et barres de pro
 
 ## Aperçu
 
+![Aperçu du dashboard](Image.png)
+
+---
+
+## Indicateurs en temps réel
+
 <div align="center">
 
 | Total tâches | En attente | En cours | Terminé | Progression globale |
 |:---:|:---:|:---:|:---:|:---:|
-| **15** | **1** | **10** | **4** | **51 %** |
+| **15** | **0** | **11** | **4** | **54 %** |
 
 </div>
 
@@ -31,7 +37,7 @@ Tableau de suivi de tâches hebdomadaire avec KPIs automatisés et barres de pro
 | `Catégorie` | Domaine d'activité — gestion de projet, finance, marketing, technique... |
 | `Priorité` | Haute · Moyenne · Basse |
 | `%` | Pourcentage d'avancement, de 0 à 100 |
-| `Progression` | Barre de progression visuelle (mise en forme conditionnelle) |
+| `Progression` | Barre de progression colorée selon l'avancement |
 | `Notes` | Contexte ou prochaine étape |
 | `Situation` | En attente · En cours · Terminé |
 
@@ -58,7 +64,8 @@ Tableau de suivi de tâches hebdomadaire avec KPIs automatisés et barres de pro
 - Date du jour calculée automatiquement (`AUJOURDHUI()`)
 - Comptage dynamique des tâches par statut (`COUNTIF`)
 - Progression globale calculée par moyenne pondérée des pourcentages individuels
-- Mise en forme conditionnelle pour les barres de progression et les priorités
+- Barres de progression avec dégradé rouge → orange → vert selon l'avancement
+- Code couleur des statuts dans la colonne Situation
 - Vue multi-projets grâce à la catégorisation par domaine
 
 ---
